@@ -1,5 +1,1 @@
-"# EasyBanking" 
-"# EasyBanking" 
-"# EasyBanking" 
-"# EasyBanking" 
-"# EasyBanking" 
+EasyBanking
