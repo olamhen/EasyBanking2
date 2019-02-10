@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Easy Banking</string>
+    <string name="todo">TODO</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="olamhen_com">olamhen.com</string>
+    <string name="easy_banking">Easy Banking</string>
+    <string name="gtb_activity_title">GT Bank</string>
+    <string name="access_bar_title">Access Bank</string>
+    <string name="eco_bar_title">Eco Bank</string>
+    <string name="fcmb_bar_title">FCMB Bank</string>
+    <string name="wema_bar_title">WEMA Bank</string>
+    <string name="fidelity_bar_title">Fidelity Bank</string>
+    <string name="first_bar_title">First Bank</string>
+    <string name="zenith_bar_title">Zenith Bank</string>
+    <string name="sterlin_bar_title">Sterlin Bank</string>
+    <string name="unioin_bar_title">Union Bank</string>
+    <string name="uba_bar_title">UBA Bank</string>
+    <string name="Keystone_bar_title">Keystone Bank</string>
+    <string name="Diamond_bar_title">Diamond Bank</string>
+    <string name="Jaiz_bar_title">Jaiz Bank</string>
+    <string name="Habib_bar_title">Heritage Bank</string>
+</resources>

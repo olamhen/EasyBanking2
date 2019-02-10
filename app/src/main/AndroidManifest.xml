@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.olamhen.user.easybanking">
+<supports-screens
+    android:resizeable="true"
+    android:smallScreens="true"
+    android:normalScreens="true"
+    android:largeScreens="true"
+    android:xlargeScreens="true"
+    android:anyDensity="true">
+</supports-screens>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:resizeableActivity="true"
+        android:theme="@style/FullscreenWindow">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Gtbank"
+            android:label="@string/gtb_activity_title"
+            android:theme="@style/GtTheme" />
+        <activity
+            android:name=".Access"
+            android:theme="@style/AcTheme"
+            android:label="@string/access_bar_title"/>
+        <activity android:name=".Habib"
+            android:theme="@style/habibTheme"
+            android:label="@string/Habib_bar_title"/>
+        <activity android:name=".Jaiz"
+            android:theme="@style/jaizTheme"
+            android:label="@string/Jaiz_bar_title"/>
+        <activity android:name=".Diamond"
+            android:theme="@style/diaTheme"
+            android:label="@string/Diamond_bar_title"/>
+        <activity android:name=".Keystone"
+            android:theme="@style/keyTheme"
+            android:label="@string/Keystone_bar_title"/>
+        <activity android:name=".Uba"
+            android:theme="@style/ubaTheme"
+            android:label="@string/uba_bar_title"/>
+        <activity android:name=".Union"
+            android:theme="@style/unionTheme"
+            android:label="@string/unioin_bar_title"/>
+        <activity android:name=".Sterlin"
+            android:theme="@style/sterlinheme"
+            android:label="@string/sterlin_bar_title"/>
+        <activity android:name=".Zenith"
+            android:theme="@style/zenitTheme"
+            android:label="@string/zenith_bar_title"/>
+        <activity android:name=".First"
+            android:theme="@style/firstTheme"
+            android:label="@string/first_bar_title"/>
+        <activity android:name=".Fidelity"
+            android:theme="@style/fidTheme"
+            android:label="@string/fidelity_bar_title"/>
+        <activity android:name=".Wema"
+            android:theme="@style/wemaTheme"
+            android:label="@string/wema_bar_title"/>
+        <activity android:name=".Fcmb"
+            android:theme="@style/fcmbTheme"
+            android:label="@string/fcmb_bar_title"/>
+        <activity android:name=".Eco"
+            android:label="@string/eco_bar_title"
+            android:theme="@style/Theme" ></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/nav_account"
+    android:title="my Account"/>
+    <item android:id="@+id/visit_us"
+        android:title="visit our site"/>
+    <item android:id="@+id/rate_us"
+        android:title="Rate Us"/>
+    <item android:id="@+id/about"
+        android:title="About"/>
+    <item android:id="@+id/network"
+        android:title="Networks"/>
+</menu>

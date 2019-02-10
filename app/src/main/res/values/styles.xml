@@ -1,0 +1,128 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="actionBarSize">90dp</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+    </style>
+    <style name="FullscreenWindow" parent="Theme.AppCompat.Light.NoActionBar"></style>
+<style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="Theme.AppCompat.Light">
+    <item name="android:textSize">30dp</item>
+    <item name="android:textColor">@color/colo_title</item>
+    <item name="android:textStyle">italic</item>
+    <item name="android:includeFontPadding">true</item>
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="android:windowActionBar">false</item>
+</style>
+    <style name="GtTheme" parent="Theme.AppCompat.Light">
+        <item name="color">@color/colorPrimary</item>
+        <item name="actionBarSize">90dp</item>
+
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AcTheme" parent="Theme.AppCompat.Light">
+        <item name="color">@color/colorPrimary</item>
+        <item name="actionBarSize">90dp</item>
+        <item name="colorPrimaryDark">@color/access</item>
+        <item name="colorPrimary">@android:color/holo_orange_dark</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>
+
+    <style name="Theme" parent="Theme.AppCompat.Light">
+        <item name="color">@color/colorPrimary</item>
+        <item name="actionBarSize">90dp</item>
+        <item name="colorPrimaryDark">@color/access</item>
+        <item name="colorPrimary">@color/gtcolorPrimary</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>
+    <style name="diaTheme" parent="Theme.AppCompat.Light">
+        <item name="color">@color/colorPrimary</item>
+        <item name="actionBarSize">90dp</item>
+        <item name="colorPrimaryDark">@color/access</item>
+        <item name="colorPrimary">@color/primary_device_default_light</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>
+    <style name="fcmbTheme" parent="Theme.AppCompat.Light">
+        <item name="color">@color/colorPrimary</item>
+        <item name="actionBarSize">90dp</item>
+        <item name="colorPrimaryDark">@color/access</item>
+        <item name="colorPrimary">@color/primary_device_default_light</item>
+        <item name="android:colorBackground">@android:color/white</item>
+</style>
+    <style name="fidTheme" parent="Theme.AppCompat.Light">
+        <item name="color">@color/colorPrimary</item>
+        <item name="actionBarSize">90dp</item>
+        <item name="colorPrimaryDark">@color/access</item>
+        <item name="colorPrimary">@color/gtcolorPrimary</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>
+    <style name="firstTheme" parent="Theme.AppCompat.Light">
+        <item name="color">@color/colorPrimary</item>
+        <item name="actionBarSize">90dp</item>
+        <item name="colorPrimaryDark">@color/access</item>
+        <item name="colorPrimary">@color/gtcolorPrimary</item>
+        <item name="android:colorBackground">@android:color/white</item>
+</style>
+    <style name="habibTheme" parent="Theme.AppCompat.Light">
+        <item name="color">@color/colorPrimary</item>
+        <item name="actionBarSize">90dp</item>
+        <item name="colorPrimaryDark">@color/access</item>
+        <item name="colorPrimary">@color/gtcolorPrimary</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>
+    <style name="jaizTheme" parent="Theme.AppCompat.Light">
+        <item name="color">@color/colorPrimary</item>
+        <item name="actionBarSize">90dp</item>
+        <item name="colorPrimaryDark">@color/access</item>
+        <item name="colorPrimary">@color/gtcolorPrimary</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>
+    <style name="keyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="color">@color/colorPrimary</item>
+        <item name="actionBarSize">90dp</item>
+        <item name="colorPrimaryDark">@color/access</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>
+    <style name="sterlinheme" parent="Theme.AppCompat.Light">
+        <item name="color">@color/colorPrimary</item>
+        <item name="actionBarSize">90dp</item>
+        <item name="colorPrimaryDark">@color/access</item>
+        <item name="colorPrimary">@color/primary_device_default_light</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>
+    <style name="ubaTheme" parent="Theme.AppCompat.Light">
+        <item name="color">@color/colorPrimary</item>
+        <item name="actionBarSize">90dp</item>
+        <item name="colorPrimaryDark">@color/access</item>
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:colorBackground">@android:color/white</item>
+</style>
+    <style name="unionTheme" parent="Theme.AppCompat.Light">
+        <item name="color">@color/colorPrimary</item>
+        <item name="actionBarSize">90dp</item>
+        <item name="colorPrimaryDark">@color/access</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>
+    <style name="wemaTheme" parent="Theme.AppCompat.Light">
+        <item name="color">@color/colorPrimary</item>
+        <item name="actionBarSize">90dp</item>
+        <item name="colorPrimaryDark">@color/access</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>
+    <style name="zenitTheme" parent="Theme.AppCompat.Light">
+        <item name="color">@color/colorPrimary</item>
+        <item name="actionBarSize">90dp</item>
+        <item name="colorPrimaryDark">@color/access</item>
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>
+</resources>

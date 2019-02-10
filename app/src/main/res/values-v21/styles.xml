@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="GtTheme" parent="android:Theme.DeviceDefault.Light">
+        <item name="color">@color/colorPrimary</item>
+        <item name="actionBarSize">90dp</item>
+
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorPrimary">@color/primary_device_default_light</item>
+        <item name="android:colorPrimaryDark">@color/primary_device_default_light</item>
+        <item name="android:colorAccent">@color/colo_title</item>
+    </style>
+</resources>

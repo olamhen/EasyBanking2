@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Access">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:scrollbars="horizontal|vertical"
+        android:showDividers="beginning|middle|end">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical"
+            android:scrollbarStyle="insideOverlay"
+            android:scrollbars="horizontal"
+            android:showDividers="beginning|middle|end">
+
+            <Button
+                android:id="@+id/buttonjz1"
+                android:layout_width="600dp"
+                android:layout_height="35dp"
+                android:background="@drawable/kpj"
+                android:text="check balance"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:id="@+id/buttonjz2"
+                android:layout_width="600dp"
+                android:layout_height="35dp"
+                android:background="@drawable/kpj"
+                android:text="transfer to other bank"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:id="@+id/buttonjz3"
+                android:layout_width="600dp"
+                android:layout_height="35dp"
+                android:background="@drawable/kpj"
+                android:text="tranfer to access"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:id="@+id/buttonjz4"
+                android:layout_width="600dp"
+                android:layout_height="35dp"
+                android:background="@drawable/kpj"
+                android:text="rechatge self"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:id="@+id/buttonjz5"
+                android:layout_width="600dp"
+                android:layout_height="35dp"
+                android:background="@drawable/kpj"
+                android:text="open an account"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:id="@+id/buttonjz6"
+                android:layout_width="600dp"
+                android:layout_height="35dp"
+                android:background="@drawable/kpj"
+                android:text="change pin"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:id="@+id/buttonjz7"
+                android:layout_width="600dp"
+                android:layout_height="35dp"
+                android:background="@drawable/kpj"
+                android:text="Pay bill"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:id="@+id/buttonjz8"
+                android:layout_width="600dp"
+                android:layout_height="35dp"
+                android:background="@drawable/kpj"
+                android:text="main menu"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>
