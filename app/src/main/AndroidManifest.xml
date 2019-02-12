@@ -74,6 +74,8 @@
         <activity android:name=".Eco"
             android:label="@string/eco_bar_title"
             android:theme="@style/Theme" ></activity>
+        <activity android:name=".BankTransactions"
+            android:theme="@style/Theme"/>
     </application>
 
 </manifest>
