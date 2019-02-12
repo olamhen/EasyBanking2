@@ -1,17 +1,17 @@
 package com.olamhen.user.easybanking;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-import static com.olamhen.user.easybanking.R.*;
-import static com.olamhen.user.easybanking.R.string.*;
-import static com.olamhen.user.easybanking.R.string.close;
+import static com.olamhen.user.easybanking.R.id;
+import static com.olamhen.user.easybanking.R.layout;
+import static com.olamhen.user.easybanking.R.string;
 
 public class HomeActivity extends AppCompatActivity {
     Button button;
@@ -21,119 +21,33 @@ private ActionBarDrawerToggle mToggle;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(layout.activity_home);
-       button = (Button) findViewById(R.id.button8);
-       button.setOnClickListener(new View.OnClickListener() {
-           @Override
-           public void onClick(View v) {
-               openGtbank();
-           }
-       });
-        button = (Button) findViewById(R.id.button7);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openAccess();
-            }
-        });
-        button = (Button) findViewById (R.id.button6);
-        button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                openHabib();
-            }
-        });
-        button = (Button) findViewById (R.id.button5);
-        button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                openJaiz();
-            }
-        });
-        button = (Button) findViewById (R.id.button16);
-        button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                openDiamond();
-            }
-        });
-        button = (Button) findViewById (R.id.button9);
-        button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                openKeystone();
-            }
-        });
-        button = (Button) findViewById (R.id.button15);
-        button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                openUba();
-            }
-        });
-        button = (Button) findViewById (R.id.button14);
-        button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                openUnion();
-            }
-        });
-        button = (Button) findViewById (R.id.button13);
-        button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                openSterlin();
-            }
-        });
-        button = (Button) findViewById (R.id.button11);
-        button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                openZenith();
-            }
-        });
-        button = (Button) findViewById (R.id.button12);
-        button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                openFirst();
-            }
-        });
-        button = (Button) findViewById (R.id.button10);
-        button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                openFidelity();
-            }
-        });
-        button = (Button) findViewById (R.id.button17);
-        button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                openWema();
-            }
-        });
-        button = (Button) findViewById (R.id.button3);
-        button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                openFcmb();
-            }
-        });
-        button = (Button) findViewById (R.id.button4);
-        button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                openEco();
-            }
-        });
+
         mDrawerlayout = (DrawerLayout) findViewById(id.drawerLayout);
         mToggle = new ActionBarDrawerToggle(this, mDrawerlayout, string.open, string.close);
         mDrawerlayout.addDrawerListener(mToggle);
         mToggle.syncState();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
-
     }
+
+    public void onBankClicked(View view){
+        Intent intent = new Intent(this, BankTransactions.class);
+        intent.putExtra("bank", getBankForLayoutID(view.getId()));
+
+        startActivity(intent);
+    }
+
+    private Bank getBankForLayoutID(int layoutID){
+
+        Bank bank = Bank.ACCESS;
+
+        switch (layoutID){
+            case  layout.activity_access:
+                bank = Bank.ACCESS;
+        }
+
+        return bank;
+    }
+
     public void openEco(){
         Intent intent = new Intent(this, Eco.class);
         startActivity(intent);
@@ -191,7 +105,8 @@ private ActionBarDrawerToggle mToggle;
         startActivity(intent);}
     public void openHabib(){
         Intent intent = new Intent(this, Habib.class);
-        startActivity(intent);}    @Override
+        startActivity(intent);}
+        @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if(mToggle.onOptionsItemSelected(item)){
             return true;
