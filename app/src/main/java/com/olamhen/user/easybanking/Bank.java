@@ -4,20 +4,27 @@ package com.olamhen.user.easybanking;
  * Created by dahham on 2/12/19.
  * This file is part of EasyBanking2 licensed under GNU Public License
  */
-public enum Banks {
+public enum Bank {
 
 
-    ACCESS{
-        public final String BALANCE = "";
-        public final String HISTORY = "";
-    },
-    DIAMOND {
+    ACCESS("*123#", ""),
+    DIAMOND ("", ""),
+    ECO("", "");
 
-    },
-    ECO{
+    Bank bank;
+    String BALANCE = "";
+    String HISTORY = "";
+
+    Bank(String balance, String history){
+        this.BALANCE = balance;
+        this.HISTORY = history;
+    }
+
+    public void queryBalance(){
 
     }
 
-
-
+    public String getName(){
+        return name() + " " + "BANK";
+    }
 }
