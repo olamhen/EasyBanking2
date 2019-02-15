@@ -29,9 +29,9 @@ private ActionBarDrawerToggle mToggle;
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
-    public void onBankClicked(View view){
+    public void onBankClicked(View v){
         Intent intent = new Intent(this, BankTransactions.class);
-        intent.putExtra("bank", getBankForLayoutID(view.getId()));
+        intent.putExtra("bank", getBankForLayoutID(v.getId()));
 
         startActivity(intent);
     }
